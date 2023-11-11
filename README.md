@@ -18,4 +18,4 @@
 * System.out.println(5 - 2); → 出力結果 : 3
 * System.out.println(5 * 2); → 出力結果 : 10
 * System.out.println(6 / 2); → 出力結果 : 2
-* System.out.println(5 % 2); → 出力結果 : 1(計算結果は2余り1、余りが出たら余り部分が出力される)
+* System.out.println(5 % 2); → 出力結果 : 1(計算結果は2余り1。「%」は余りを計算でき、出たら余り部分が出力される)
