@@ -34,8 +34,8 @@
 * 例 ： int number = 3;
 * 例 : String text = "Hello World";
 #### int型変数の計算・・・数値が入った変数なら、数値と同様に計算が可能。数値と変数の計算も、変数同士の計算もできる。例は以下の通り。
-'''
+```
 int number1 = 10;
 System.out.println(number1 + 3);
-'''
+```
 出力結果 : 13
