@@ -20,7 +20,7 @@ System.out.println("Hello World");
 ```
 System.out.println(5);
 ```
-出力結果 : 5
+出力結果 : 5  
 例2
 ```
 System.out.println(5 + 2);
@@ -37,17 +37,17 @@ System.out.println("5 + 2 ");
 ```
 * System.out.println(5 - 2);
 ```
-出力結果 : 3
+出力結果 : 3  
 例2
 ```
 System.out.println(5 * 2);
 ```
-出力結果 : 10
+出力結果 : 10  
 例3
 ```
 System.out.println(6 / 2);
 ```
-出力結果 : 2
+出力結果 : 2  
 例4
 ```
 System.out.println(5 % 2);
@@ -60,7 +60,7 @@ System.out.println(5 % 2);
 ```
 System.out.println("Hello" + "World");
 ```
-出力結果 : HelloWorld
+出力結果 : HelloWorld  
 例2
 ```
 System.out.println("5" + "2");
@@ -84,7 +84,7 @@ String text = "Hello World";
 int number1 = 10;
 System.out.println(number1 + 3);
 ```
-出力結果 : 13
+出力結果 : 13  
 例2
 ```
 int number1 = 10;
