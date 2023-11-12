@@ -16,10 +16,12 @@ System.out.println("Hello World");
 　　
 ### 数値
 #### Javaも数値は文字列と違い、ダブルクォーテーションで囲まない。例は以下の通り。
+例1
 ```
 System.out.println(5);
 ```
 出力結果 : 5
+例2
 ```
 System.out.println(5 + 2);
 ```
@@ -31,18 +33,22 @@ System.out.println("5 + 2 ");
 ```
 出力結果 : 5 + 2
 #### 足し算以外にも引き算、掛け算、割り算の出力が可能。例は以下の通り。
+例1
 ```
 * System.out.println(5 - 2);
 ```
 出力結果 : 3
+例2
 ```
 System.out.println(5 * 2);
 ```
 出力結果 : 10
+例3
 ```
 System.out.println(6 / 2);
 ```
 出力結果 : 2
+例4
 ```
 System.out.println(5 % 2);
 ```
@@ -50,17 +56,46 @@ System.out.println(5 % 2);
     
 ### 文字列の連結
 #### Rubyと同様に文字列を「足し算」すると、下記のように文字列を連結することが可能。
-* System.out.println("Hello" + "World"); → 出力結果 : HelloWorld
-* System.out.println("5" + "2"); → 出力結果 : 52　　
+例1
+```
+System.out.println("Hello" + "World");
+```
+出力結果 : HelloWorld
+例2
+```
+System.out.println("5" + "2");
+```
+出力結果 : 52　　
   
 ### 変数の定義
 #### データ型　文字列 → String型、整数　→ int型
 #### 変数の値の代入は変数定義と同時に行うことができる。変数定義と同時に値を代入することを変数の初期化と呼ぶ。
-* 例 ： int number = 3;
-* 例 : String text = "Hello World";
+例1
+```
+int number = 3;
+```
+例2
+```
+String text = "Hello World";
+```
 #### int型変数の計算・・・数値が入った変数なら、数値と同様に計算が可能。数値と変数の計算も、変数同士の計算もできる。例は以下の通り。
+例1
 ```
 int number1 = 10;
 System.out.println(number1 + 3);
 ```
 出力結果 : 13
+例2
+```
+int number1 = 10;
+int number2 = 5;
+System.out.println(number1 + number2);
+```
+出力結果 : 15
+
+#### String型変数の連結・・・文字列の入った変数であれば、文字列と同様に連結を行うことが可能。なお、変数にダブルクォーテーションを付けると、変数ではなく文字列として扱われてしまう。
+```
+String greeting = "こんにちは";
+System.out.println(greeting + "佐藤さん");
+```
+出力結果　： こんにちは佐藤さん
