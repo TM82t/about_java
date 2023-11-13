@@ -91,11 +91,24 @@ int number1 = 10;
 int number2 = 5;
 System.out.println(number1 + number2);
 ```
-出力結果 : 15
-
+出力結果 : 15  
+  
 #### String型変数の連結・・・文字列の入った変数であれば、文字列と同様に連結を行うことが可能。なお、変数にダブルクォーテーションを付けると、変数ではなく文字列として扱われてしまう。
 ```
 String greeting = "こんにちは";
 System.out.println(greeting + "佐藤さん");
 ```
 出力結果　： こんにちは佐藤さん
+
+#### 変数の更新・・・一度値を代入した変数にその後再び値を代入すると、後で代入した値によって変数の中身が上書きされる。  
+例
+```
+String name = "Sato";
+System.out.println(name);
+
+name = "Suzuki";
+System.out.println(name);
+```
+出力結果  
+Sato  
+Suzuki
