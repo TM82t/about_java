@@ -157,3 +157,11 @@ double number1 = 5.38;
 double number2 = 2.34;
 System.out.println(number1 + number2); // 出力結果 : 7.72
 ```
+#### 強制型変換を用いた整数と小数点の計算
+```
+int x = 13;
+int y = 4;
+System.out.println(x / y); // 結果：3（3.25とは出ない）
+
+System.out.println((double)x / y); // 結果：3.25
+```
