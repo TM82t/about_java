@@ -8,7 +8,13 @@
 #### Javaの場合もRuby同様、文字列はダブルクォーテーション（"）で囲む必要がある。" "で囲んでいないと、コードが動かなくなる。
 * 文字列の例：
 ```
-System.out.println("Hello World");
+class Main {
+  public static void main(String[] args) {
+
+    System.out.println("Hello World");
+
+ }
+}
 ```
 「()の中身(Hello World)を出力（表示）せよ」という「命令」
 #### Javaは実行前にコードをコンピュータ用に変換する「コンパイル」を行う。
@@ -174,4 +180,22 @@ int y = 4;
 System.out.println(x / y); // 結果：3（3.25とは出ない）
 
 System.out.println((double)x / y); // 結果：3.25
+```
+### if文
+```
+int time = 8;
+if((time >= 4) && (time <= 10)){
+  System.out.println("只今の時刻は" + time + "時です。");
+  System.out.println("おはようございます");
+}else if((time >= 11) && (time <= 17)){
+  System.out.println("只今の時刻は" + time + "時です。");
+  System.out.println("こんにちは");
+}else if(time == 18){
+  System.out.println("只今の時刻は" + time + "時です。");
+  System.out.println("こんばんは");
+}else if((time >= 19) && (time <= 3)){
+  System.out.println("只今の時刻は" + time + "時です。");
+  System.out.println("おやすみなさい");
+
+ // 出力結果:只今の時刻は8時です。おはようございます。
 ```
