@@ -141,11 +141,11 @@ System.out.println(number); // 出力結果 : 5
 #### 自己代入の省略した記述
 ```
 int number = 2;
-number += 3;
-number -= 3;
-number *= 3;
-number /= 3;
-number %= 3;
+number += 3; // 変数に3を足す
+number -= 3; // 変数から3を引く
+number *= 3; // 変数に3を掛ける
+number /= 3; // 変数を3で割る
+number %= 3; // 変数を3で割る（小数点も表示)
 // 変数に1を足す、もしくは1を引く場合はさらに省略可能
 number++; // 変数に1を足す
 number--; // 変数に1を引く
