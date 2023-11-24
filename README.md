@@ -181,6 +181,8 @@ System.out.println(x / y); // 結果：3（3.25とは出ない）
 
 System.out.println((double)x / y); // 結果：3.25
 ```
+*変数xのint型を「double型」に強制変換させたので、自動型変換が発火して変数yも「double型」になった。
+
 ### if文
 ```
 int time = 8;
