@@ -207,8 +207,8 @@ if((time >= 4) && (time <= 10)){
 true, falseにはダブルクォーテーションは付けないことに注意。  
 ダブルクォーテーションを付けるとString型(文字列)になる。  
 ```
-System.out.println(true); // true
-System.out.println(false); // false
+System.out.println(true); // 出力結果：true
+System.out.println(false); // 出力結果：false
 ```
   
 ### 比較演算子
@@ -217,8 +217,32 @@ System.out.println(false); // false
 違っていればfalseとなる。また「x != y」はその逆になる。  
 代入の「=」と比較の「==」を混同しないように注意。  
 ```
-System.out.println(5 + 2 == 7); // true
-System.out.println(5 + 2 == 6); // false
-System.out.println(5 + 2 != 7); // false
-System.out.println(5 + 2 != 6); // true
+System.out.println(5 + 2 == 7); // 出力結果：true
+System.out.println(5 + 2 == 6); // 出力結果：false
+System.out.println(5 + 2 != 7); // 出力結果：false
+System.out.println(5 + 2 != 6); // 出力結果：true
 ```
+
+### whileによるループ処理
+```
+public class Main {
+    public static void main(String[] args) {
+        int i = 0; // カウンタ変数の初期化
+        while (i <= 3) {
+            System.out.println("hello world " + i);// 繰り返し処理
+            i = i + 1; // カウンタ変数の更
+        }
+        System.out.println("last " + i); // ループ処理後のiを確認
+    }
+}
+```
+出力結果
+hello world 0  
+hello world 1  
+hello world 2  
+hello world 3  
+hello world 4  
+hello world 5  
+hello world 6  
+hello world 7  
+last　8  
