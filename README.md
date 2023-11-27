@@ -236,7 +236,7 @@ public class Main {
     }
 }
 ```
-出力結果
+出力結果  
 hello world 0  
 hello world 1  
 hello world 2  
