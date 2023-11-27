@@ -203,19 +203,19 @@ if((time >= 4) && (time <= 10)){
 ```
   
 ### 真偽値
-真偽値のデータ型はboolean型。　　
-true, falseにはダブルクォーテーションは付けないことに注意。　　
-ダブルクォーテーションを付けるとString型(文字列)になる。
+真偽値のデータ型はboolean型。  
+true, falseにはダブルクォーテーションは付けないことに注意。  
+ダブルクォーテーションを付けるとString型(文字列)になる。  
 ```
 System.out.println(true); // true
 System.out.println(false); // false
 ```
   
 ### 比較演算子
-値を比較するための記号で、比較した結果は真偽値（trueかfalse）になる。　　
-「x == y」はxとyが同じかどうかを比較し、同じであればtrue、　　
-違っていればfalseとなる。また「x != y」はその逆になる。　　
-代入の「=」と比較の「==」を混同しないように注意。
+値を比較するための記号で、比較した結果は真偽値（trueかfalse）になる。  
+「x == y」はxとyが同じかどうかを比較し、同じであればtrue、  
+違っていればfalseとなる。また「x != y」はその逆になる。  
+代入の「=」と比較の「==」を混同しないように注意。  
 ```
 System.out.println(5 + 2 == 7); // true
 System.out.println(5 + 2 == 6); // false
