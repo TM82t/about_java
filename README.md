@@ -216,12 +216,28 @@ System.out.println(false); // 出力結果：false
 「x == y」はxとyが同じかどうかを比較し、同じであればtrue、  
 違っていればfalseとなる。また「x != y」はその逆になる。  
 代入の「=」と比較の「==」を混同しないように注意。  
+並びに以上及び以下はそれぞれ「<=」「>=」で比較可能。
 ```
 System.out.println(5 + 2 == 7); // 出力結果：true
 System.out.println(5 + 2 == 6); // 出力結果：false
 System.out.println(5 + 2 != 7); // 出力結果：false
 System.out.println(5 + 2 != 6); // 出力結果：true
+
+System.out.println(5 + 2 >= 7); // 出力結果：true
+System.out.println(5 + 2 >= 8); // 出力結果：false
+System.out.println(5 + 2 >= 8); // 出力結果：false
+System.out.println(5 + 2 >= 6); // 出力結果：true
 ```
+### 比較演算子
+論理演算子は「かつ」「または」「~でない」を表現する記号。　　
+「かつ」は&&で表現し、「条件1 && 条件2」は「条件1がtrueかつ条件2もtrue」　　
+ならば結果もtrueになり、どちらか一方でもfalseならば結果はfalseになる。
+
+「または」は||で表現し、「条件1 || 条件2」は、
+「条件1または条件2のどちらか一方でもtrue」であれば結果はtrueになる。
+
+!を用いると「〜でない」を表現できる。例えば、!(x >= 30)は
+「xが30以上でない（30より小さい）」ときtrueになり、「xが30以上」のときfalseになる。
 
 ### whileによるループ処理
 ```
