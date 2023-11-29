@@ -173,7 +173,7 @@ double number1 = 5.38;
 double number2 = 2.34;
 System.out.println(number1 + number2); // 出力結果 : 7.72
 ```
-#### 強制型変換を用いた整数と小数点の計算
+#### キャスト・・・強制型変換を用いた整数と小数点の計算
 ```
 int x = 13;
 int y = 4;
@@ -181,7 +181,9 @@ System.out.println(x / y); // 結果：3（3.25とは出ない）
 
 System.out.println((double)x / y); // 結果：3.25
 ```
-*変数xのint型を「double型」に強制変換させたので、自動型変換が発火して変数yも「double型」になった。
+強制的に型変換を行うことをキャストと呼び、(変換したいデータ型)値とする。  
+int型同士の値から、最終的にdouble型の計算結果を得たい場合、どちらか1つをキャストする。  
+片方がdouble型であれば結果はdouble型になる。  
 
 ### if文
 int time = で定義する数値で結果が変わるよう else if を用いて記述。
