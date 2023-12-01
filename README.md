@@ -261,6 +261,7 @@ switch (n) {
 ```
   
 ### whileによるループ処理
+次のコードは i に変数の初期値を代入し、i が定めた数値を上回るまで繰り返し処理を行うように記述している
 ```
 public class Main {
     public static void main(String[] args) {
