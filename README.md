@@ -268,7 +268,7 @@ public class Main {
         int i = 0; // カウンタ変数の初期化
         while (i <= 3) {
             System.out.println("hello world " + i);// 繰り返し処理
-            i = i + 1; // カウンタ変数の更
+            i = i + 1; // カウンタ変数の更 // i++; と記述もできる
         }
         System.out.println("last " + i); // ループ処理後のiを確認
     }
