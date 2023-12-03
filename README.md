@@ -314,7 +314,7 @@ class Main {
     System.out.println("=== while文 ===");
     int i = 1;
     while (i < 10) {
-      // iが5の倍数のとき、繰り返し処理を終了してください
+      // iが5の倍数のとき、繰り返し処理を終了
       if (i % 5 == 0) {
         break;
       }
@@ -325,7 +325,7 @@ class Main {
     
     System.out.println("=== for文 ===");
     for (int j = 1; j < 10; j++) {
-      // jが3の倍数のとき、処理をスキップしてください
+      // jが3の倍数のとき、処理をスキップ
       if (j % 3 == 0) {
         continue;
       }
@@ -344,13 +344,13 @@ class Main {
 ```
 class Main {
   public static void main(String[] args) {
-    // 変数namesに、配列を代入してください
+    // 変数namesに、配列を代入
     String[] names = {"にんじゃわんこ", "ひつじ仙人", "ベイビーわんこ"};
     
-    // インデックス番号が0の要素を出力してください
+    // インデックス番号が0の要素を出力
     System.out.println(names[0]);
     
-    // インデックス番号が2の要素を出力してください
+    // インデックス番号が2の要素を出力
     System.out.println(names[2]);
     
   }
