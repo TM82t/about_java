@@ -384,6 +384,7 @@ for文を用いることで、配列の要素の値を簡単に一覧表示で�
 class Main {
   public static void main(String[] args) {
     String[] names = {"John", "Kate", "Bob"};
+
     for(int i = 0; i < 3; i++) {
       System.out.println("Hello" + names[i]);
     }
@@ -395,3 +396,38 @@ class Main {
 Hello John  
 Hello Kate  
 Hello Bob
+
+### length
+配列には要素の数を数えるlengthという機能が備わっている。lengthは「配列.length」のようにドット（.）でつないで用いる。  
+lengthを用いれば、上記のfor文の条件式「i < 3」を下記のように書き換えることができ、配列の要素数を気にする必要がなくなる。  
+```
+class Main {
+  public static void main(String[] args) {
+    String[] names = {"John", "Kate", "Bob"};
+
+    for(int i = 0; i < names.length; i++) {
+      System.out.println("Hello" + names[i]);
+    }
+    
+  }
+}
+```
+  
+### 拡張for文の文法
+for文は配列用に特別な構文（拡張for文）を用意している。これを使えば、for文をよりシンプルに書くことが可能。  
+```
+class Main {
+  public static void main(String[] args) {
+    String[] names = {"わんこ", "ひつじ", "ねこ"};
+    
+    for (String name: names) {
+      System.out.println("私の名前は" + name + "です");
+    }
+    
+  }
+}
+```
+出力結果  
+私の名前はわんこです  
+私の名前はひつじです  
+私の名前はねこです
