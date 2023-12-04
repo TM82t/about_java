@@ -269,7 +269,7 @@ public class Main {
         int i = 0; // カウンタ変数の初期化
         while (i <= 3) {
             System.out.println("hello world " + i);// 繰り返し処理
-            i = i + 1; // カウンタ変数の更 // i++; と記述もできる
+            i = i + 1; // カウンタ変数を更に i++; と記述もできる
         }
         System.out.println("last " + i); // ループ処理後のiを確認
     }
@@ -356,3 +356,42 @@ class Main {
   }
 }
 ```
+### 配列の上書き
+配列の各要素は変数のようなもの。特定の要素に値を代入することで要素を上書きすることが可能。  
+配列では存在しない要素に値を代入することはできないので注意。  
+例
+```
+class Main {
+  public static void main(String[] args) {
+    String[] languages = {"Ruby", "PHP", "Python"};
+
+    System.out.println(languages[1]);
+    
+    languages[1] = "Java";
+    
+    System.out.println(languages[1]);
+    
+  }
+}
+```
+出力結果  
+PHP  
+Java  
+
+### 配列とfor文
+for文を用いることで、配列の要素の値を簡単に一覧表示できる。
+```
+class Main {
+  public static void main(String[] args) {
+    String[] names = {"John", "Kate", "Bob"};
+    for(int i = 0; i < 3; i++) {
+      System.out.println("Hello" + names[i]);
+    }
+    
+  }
+}
+```
+出力結果  
+Hello John  
+Hello Kate  
+Hello Bob
