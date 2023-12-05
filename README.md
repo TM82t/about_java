@@ -254,9 +254,10 @@ int n = 1
 switch (n) {
  case 1:
   System.out.println("大吉");
-  break
+  break;
  case 2:
   System.out.println("吉");
+  break;
 }
 ```
 どのcaseとも一致しなかったときに実行する処理を、defaultに指定することが可能。if文のelseに似ている。  
