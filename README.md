@@ -422,6 +422,7 @@ class Main {
     String[] names = {"わんこ", "ひつじ", "ねこ"};
     
     for (String name: names) {
+      // データ型 変数名 配列名
       System.out.println("私の名前は" + name + "です");
     }
     
